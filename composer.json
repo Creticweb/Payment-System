@@ -14,7 +14,8 @@
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.12",
         "laravel/tinker": "^2.5",
-        "razorpay/razorpay": "2.*"
+        "razorpay/razorpay": "2.*",
+        "silviolleite/laravelpwa": "^2.0"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
