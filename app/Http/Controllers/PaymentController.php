@@ -43,7 +43,7 @@ class PaymentController extends Controller
             'email' => $request->all()['email'],
             'contactNumber' => $request->all()['contactNumber'],
             'address' => $request->all()['address'],
-            'description' => 'Testing description',
+            'description' => $request->all()['plan'],
         ];
 
         // Let's checkout payment page is it working

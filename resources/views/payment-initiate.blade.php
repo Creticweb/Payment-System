@@ -35,6 +35,7 @@
                             <label for="amount">Amount</label> : 
                             <input type="text" class="form-control" id="amount" name="amount" value="399" readonly>
                         </div></br>
+                        <input type="hidden" id="plan" name="plan" value="GST BASIC">
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </form>                    
                 </div>

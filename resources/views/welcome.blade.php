@@ -1,23 +1,28 @@
 @include('header')
- <div class="app-content content ">
-                        <!-- pricing free trial -->
-                    <div class="pricing-free-trial">
-                        <div class="row">
-                            <div class="col-12 col-lg-10 col-lg-offset-3 mx-auto">
-                                <div class="pricing-trial-content d-flex justify-content-between">
-                                    <div class="text-center text-md-left mt-3">
-                                        <h3 class="text-primary">Still not convinced ? </h3>
-                                        <h5>Your money will be secured with 100% refund policy</h5>
-                                        <a href="/browse" class="btn btn-primary mt-2 mt-lg-3" role="button">Browse Plan's
-                      </a>
-                                    </div>
-
-                                    <!-- image -->
-                                    <img src="{{asset('/images/illustration/pricing-Illustration.svg')}}" class="pricing-trial-img img-fluid" alt="svg img" />
-                                </div>
-                            </div>
+<body class="vertical-layout vertical-menu-modern blank-page navbar-floating footer-static  " data-open="click" data-menu="vertical-menu-modern" data-col="blank-page">
+    <!-- BEGIN: Content-->
+    <div class="app-content content ">
+        <div class="content-overlay"></div>
+        <div class="header-navbar-shadow"></div>
+        <div class="content-wrapper">
+            <div class="content-header row">
+            </div>
+            <div class="content-body">
+                <!-- Not authorized-->
+                <div class="">
+                    <div class="misc-inner p-2 p-sm-3">
+                        <div class="w-100 text-center">
+                            <h2 class="mb-1">You are not authorized! 🔐</h2>
+                            <p class="mb-2">
+                                The Webtrends Marketing Lab website in IIS uses the default IUSR account credentials to access the web pages it
+                                serves.
+                            </p><a class="btn btn-primary mb-1 btn-sm-block" href="page-auth-login-v2.html">Back to login</a><img class="img-fluid" src="{{asset('images/pages/not-authorized.svg')}}" alt="Not authorized page" />
                         </div>
                     </div>
-                    <!--/ pricing free trial -->
-</div>
+                </div>
+                <!-- / Not authorized-->
+            </div>
+        </div>
+    </div>
+    <!-- END: Content-->
 @include('footer')
